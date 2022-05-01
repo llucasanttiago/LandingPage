@@ -85,7 +85,13 @@ html, body{
 	margin-top: 8px;
 	width: 344px;
 	height: 50px;
+	padding: 10px;
 	border: 1px solid #ccc;
+	font-size: 1rem;
+}
+
+.form form .input-container input[type=text]:focus{
+	outline: 0;
 }
 
 .form .input-submit-container{
@@ -163,6 +169,7 @@ form input[type=submit]{
 .section-1{
 	width: 100%;
 	max-width: 1200px;
+	margin:  0 auto;
 	padding: 90px 2%;
 }
 
@@ -173,7 +180,6 @@ form input[type=submit]{
 }
 
 .container-section{
-	margin: 40px;
 	text-align: center;
 }
 
